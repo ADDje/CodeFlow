@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+    <dimen name="block_margin_right">80dp</dimen>
+</resources>

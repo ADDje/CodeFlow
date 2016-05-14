@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_availablecolors_entries">
+        <item>Pale Yellow</item>
+        <item>Pale Green</item>
+        <item>Green Gold</item>
+        <item>Pale Blue</item>
+        <item>Pale Purple</item>
+        <item>Pale Pink</item>
+        <item>Red Pink</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Deep Blue</item>
+        <item>Purple</item>
+        <item>Cyan</item>
+        <item>Light Grey</item>
+    </string-array>
+
+    <string-array name="pref_availablecolors_values">
+        <item name="paleyellow">#ffffcc</item>
+        <item name="palegreen">#ccffcc</item>
+        <item name="palegreengold">#ccff99</item>
+        <item name="paleblue">#ccffff</item>
+        <item name="palepurple">#ccccff</item>
+        <item name="palepink">#ffccff</item>
+        <item name="paleredpink">#ffcccc</item>
+        <item name="pink">#ff99cc</item>
+        <item name="red">#ff6666</item>
+        <item name="green">#99ff99</item>
+        <item name="blue">#33ccff</item>
+        <item name="deepblue">#6699ff</item>
+        <item name="purple">#cc66ff</item>
+        <item name="cyan">#33cccc</item>
+        <item name="lightgrey">#e6e6e6</item>
+    </string-array>
+
+    <string-array name="old_stuff_blah">
+        <item name="paleyellow">#ffffcc</item>
+        <item name="palegreen">#ccffcc</item>
+        <item name="palegreengold">#ccff99</item>
+        <item name="paleblue">#ccffff</item>
+        <item name="palepurple">#ccccff</item>
+        <item name="palepink">#ffccff</item>
+        <item name="paleredpink">#ffcccc</item>
+        <item name="pink">#ff99cc</item>
+        <item name="red">#ff6666</item>
+        <item name="green">#99ff99</item>
+        <item name="blue">#33ccff</item>
+        <item name="deepblue">#6699ff</item>
+        <item name="purple">#cc66ff</item>
+        <item name="cyan">#33cccc</item>
+        <item name="lightgrey">#e6e6e6</item>
+    </string-array>
+
+</resources>

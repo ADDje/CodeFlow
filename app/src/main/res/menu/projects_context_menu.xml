@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rename_id"
+        android:title="@string/action_rename" />
+    <item
+        android:id="@+id/share_id"
+        android:title="@string/action_share" />
+    <item
+        android:id="@+id/export_id"
+        android:title="@string/action_export" />
+    <item
+        android:id="@+id/delete_id"
+        android:title="@string/action_delete" />
+</menu>

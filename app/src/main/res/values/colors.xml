@@ -1,0 +1,40 @@
+<!-- Colour values defined for each Block -->
+<!--
+    Get these in the Java activity by
+    Resources res = getResources();
+    res.getColor(R.color.palegreen)
+-->
+<resources>
+    <color name="paleyellow">#ffffcc</color>
+    <color name="palegreen">#ccffcc</color>
+    <color name="palegreengold">#ccff99</color>
+    <color name="paleblue">#ccffff</color>
+    <color name="palepurple">#ccccff</color>
+    <color name="palepink">#ffccff</color>
+    <color name="paleredpink">#ffcccc</color>
+    <color name="pink">#ff99cc</color>
+    <color name="red">#ff6666</color>
+    <color name="green">#99ff99</color>
+    <color name="blue">#33ccff</color>
+    <color name="deepblue">#6699ff</color>
+    <color name="purple">#cc66ff</color>
+    <color name="cyan">#33cccc</color>
+    <color name="lightgrey">#e6e6e6</color>
+
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="color_primary">#0b8dc3</color>
+    <color name="color_primary_dark">#086a93</color>
+    <color name="color_accent">#1a797d</color>
+
+    <string name="default_COMMENT_color">#e6e6e6</string>
+    <string name="default_VARIABLE_color">#99ff99</string>
+    <string name="default_INPUT_color">#33ccff</string>
+    <string name="default_OUTPUT_color">#ff6666</string>
+    <string name="default_WHILELOOP_color">#6699ff</string>
+    <string name="default_FORLOOP_color">#33cccc</string>
+    <string name="default_IFSTATEMENT_color">#ff99cc</string>
+    <string name="default_ELSESTATEMENT_color">#ffccff</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team10.codeflow.Sandbox"
+    android:background="#fdfafa">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_wrapper_outer"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_wrapper_inner"
+            android:background="@color/color_primary">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/my_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#0b8dc3"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:focusable="true"
+                android:clickable="true"
+                android:contextClickable="true" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/action_newBlock"
+                    android:layout_gravity="right"
+                    android:padding="6dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/toolbar_addimage"
+                        android:src="@drawable/ic_add_black_24dp" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/toolbar_removeimage"
+                        android:src="@drawable/ic_remove_black_24dp"
+                        android:visibility="gone" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/action_addBlock"
+                        android:id="@+id/toolbar_addBlock"
+                        android:textSize="16sp"
+                        android:layout_marginRight="2dp"
+                        android:textColor="#000"
+                        android:layout_gravity="center_vertical" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.Toolbar>
+
+        </RelativeLayout>
+
+        <include layout="@layout/sandbox_alt_toolbar" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/drag_here_to_delete"
+        android:id="@+id/dragDeleteZone"
+        android:layout_alignParentStart="true"
+        android:background="#f50b8dc3"
+        android:layout_above="@+id/mainContent"
+        android:layout_marginBottom="4dp"
+        android:enabled="false"
+        android:focusable="false"
+        android:textColor="#f0fafafa"
+        android:textSize="18sp"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="14dp"
+        android:layerType="software"
+        android:visibility="gone"
+        android:textIsSelectable="false" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainContent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_below="@+id/toolbar_wrapper_outer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="false"
+        android:layout_margin="0dp"
+        android:padding="0dp">
+
+        <com.team10.codeflow.DynamicListView
+            android:id="@+id/listview"
+            android:background="#0000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/shadow" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/my_alt_toolbar" android:visibility="gone">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary">
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:id="@+id/horizontalScrollView"
+            android:background="@color/color_primary_dark"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="6dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="COMMENT"
+                    android:textColor="#000"
+                    android:id="@+id/baseblock01"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/lightgrey"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="4dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="VAR"
+                    android:textColor="#000"
+                    android:id="@+id/baseblock02"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/green"
+                    android:layout_marginRight="4dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="INPUT"
+                    android:textColor="#000"
+                    android:id="@+id/baseblock03"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/blue"
+                    android:layout_marginRight="4dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="OUTPUT"
+                    android:textColor="#000"
+                    android:id="@+id/baseblock04"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/red"
+                    android:layout_marginRight="4dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="WHILE"
+                    android:textColor="#000"
+                    android:id="@+id/baseblock05"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/deepblue"
+                    android:layout_marginRight="4dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="FOR"
+                    android:textColor="#000"
+                    android:id="@+id/baseblock06"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/cyan"
+                    android:layout_marginRight="4dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="IF"
+                    android:textColor="#000"
+                    android:id="@+id/baseblock07"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/pink"
+                    android:layout_marginRight="4dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="ELSE"
+                    android:textColor="#000"
+                    android:id="@+id/baseblock08"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/palepink"
+                    android:layout_marginRight="2dp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

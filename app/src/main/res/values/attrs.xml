@@ -1,0 +1,11 @@
+<!-- Allows Custom View 'Block' To be stylable -->
+<resources>
+    <declare-styleable name="Block">
+        <attr name="blockColor" format="color"/>
+        <!-- LEFT ENUM ATTRIBUTE IN BELOW as example IN CASE USEFUL IN FUTURE -->
+        <!--<attr name="labelPosition" format="enum">-->
+            <!--<enum name="left" value="0"/>-->
+            <!--<enum name="right" value="1"/>-->
+        <!--</attr>-->
+    </declare-styleable>
+</resources>

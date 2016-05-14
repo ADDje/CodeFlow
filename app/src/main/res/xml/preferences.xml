@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_colorblind"
+        android:summary="@string/pref_colorblind_summ"
+        android:title="@string/pref_colorblind" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_largetext"
+        android:summary="@string/pref_largetext_summ"
+        android:title="@string/pref_largetext" />
+
+    <PreferenceCategory
+        android:key="pref_block_colors"
+        android:title="@string/block_color_summ">
+
+        //Comment
+        <ListPreference
+            android:defaultValue="@string/default_COMMENT_color"
+            android:dialogTitle="@string/pref_COMMENT_color"
+            android:entries="@array/pref_availablecolors_entries"
+            android:entryValues="@array/pref_availablecolors_values"
+            android:key="pref_COMMENT_color"
+            android:title="@string/pref_COMMENT_color" />
+
+        //Variable
+        <ListPreference
+            android:defaultValue="@string/default_VARIABLE_color"
+            android:dialogTitle="@string/pref_VARIABLE_color"
+            android:entries="@array/pref_availablecolors_entries"
+            android:entryValues="@array/pref_availablecolors_values"
+            android:key="pref_VARIABLE_color"
+            android:title="@string/pref_VARIABLE_color" />
+
+        //Input
+        <ListPreference
+            android:defaultValue="@string/default_INPUT_color"
+            android:dialogTitle="@string/pref_INPUT_color"
+            android:entries="@array/pref_availablecolors_entries"
+            android:entryValues="@array/pref_availablecolors_values"
+            android:key="pref_INPUT_color"
+            android:title="@string/pref_INPUT_color" />
+
+        //Output
+        <ListPreference
+            android:defaultValue="@string/default_OUTPUT_color"
+            android:dialogTitle="@string/pref_OUTPUT_color"
+            android:entries="@array/pref_availablecolors_entries"
+            android:entryValues="@array/pref_availablecolors_values"
+            android:key="pref_OUTPUT_color"
+            android:title="@string/pref_OUTPUT_color" />
+
+        //While loop
+        <ListPreference
+            android:defaultValue="@string/default_WHILELOOP_color"
+            android:dialogTitle="@string/pref_WHILELOOP_color"
+            android:entries="@array/pref_availablecolors_entries"
+            android:entryValues="@array/pref_availablecolors_values"
+            android:key="pref_WHILELOOP_color"
+            android:title="@string/pref_WHILELOOP_color" />
+
+        //For Loop
+        <ListPreference
+            android:defaultValue="@string/default_FORLOOP_color"
+            android:dialogTitle="@string/pref_FORLOOP_color"
+            android:entries="@array/pref_availablecolors_entries"
+            android:entryValues="@array/pref_availablecolors_values"
+            android:key="pref_FORLOOP_color"
+            android:title="@string/pref_FORLOOP_color" />
+
+        //IF Statement
+        <ListPreference
+            android:defaultValue="@string/default_IFSTATEMENT_color"
+            android:dialogTitle="@string/pref_IFSTATEMENT_color"
+            android:entries="@array/pref_availablecolors_entries"
+            android:entryValues="@array/pref_availablecolors_values"
+            android:key="pref_IFSTATEMENT_color"
+            android:title="@string/pref_IFSTATEMENT_color" />
+
+        //Else Statement
+        <ListPreference
+            android:defaultValue="@string/default_ELSESTATEMENT_color"
+            android:dialogTitle="@string/pref_ELSESTATEMENT_color"
+            android:entries="@array/pref_availablecolors_entries"
+            android:entryValues="@array/pref_availablecolors_values"
+            android:key="pref_ELSESTATEMENT_color"
+            android:title="@string/pref_ELSESTATEMENT_color" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

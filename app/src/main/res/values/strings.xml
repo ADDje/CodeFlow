@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Code Flow</string>
+
+    <!-- Main Menu -->
+    <string name="main_menu_title">Main Menu</string>
+    <string name="sandboxButton">SANDBOX</string>
+    <string name="settingsButton">SETTINGS</string>
+    <string name="projectsButton">PROJECTS</string>
+    <string name="app_logo">CodeFlow Logo</string>
+    <string name="copyrightText">Team 10 - Application Development - Loughborough University</string>
+
+    <!-- Sandbox Screen -->
+    <string name="title_activity_sandbox">Sandbox</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="action_addBlock">Add Block</string>
+    <string name="action_share">Share</string>
+    <string name="action_clear">Clear Sandbox</string>
+    <string name="action_projects">Load Project</string>
+    <string name="share_title">Share your project!</string>
+    <string name="drag_here_to_delete">Drag here to delete</string>
+
+    <!-- Projects Screen -->
+    <string name="title_activity_projects_menu">ProjectsMenu</string>
+    <string name="projects_MainTitle">Projects</string>
+    <string name="projects_BackButton">BACK TO MENU</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_export">Export</string>
+
+    <!-- Settings Screen -->
+    <string name="title_activity_settings_menu">SettingsMenu</string>
+    <string name="settings_MainTitle">Settings</string>
+    <string name="settings_BackButton">Save Settings</string>
+    <string name="settings_ColourBlind">Colourblind Mode</string>
+    <string name="settings_LargeText">Larger Text Size</string>
+
+    <string name="pref_colorblind">Colorblind Mode</string>
+    <string name="pref_colorblind_summ">Change your colors to monochrome</string>
+    <string name="pref_largetext">Large Text Mode</string>
+    <string name="pref_largetext_summ">Increases the text size</string>
+
+    <string name="block_color_summ">Define custom block colors</string>
+    <string name="pref_COMMENT_color">Comment Color</string>
+    <string name="pref_VARIABLE_color">Variable Color</string>
+    <string name="pref_INPUT_color">Input Color</string>
+    <string name="pref_OUTPUT_color">Output Color</string>
+    <string name="pref_WHILELOOP_color">While Loop Color</string>
+    <string name="pref_FORLOOP_color">For Loop Color</string>
+    <string name="pref_IFSTATEMENT_color">IF Statement Color</string>
+    <string name="pref_ELSESTATEMENT_color">ELSE Statement Color</string>
+
+
+
+
+</resources>
