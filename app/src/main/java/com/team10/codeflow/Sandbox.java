@@ -512,7 +512,7 @@ public class Sandbox extends AppCompatActivity {
 
                 FileOutputStream fs = null;
                 try {
-                    fs = new FileOutputStream(getFilesDir().getAbsolutePath() + File.separator + "projects" + File.separator + proj_name + ".codeblock");
+                    fs = new FileOutputStream(getFilesDir().getAbsolutePath() + File.separator + "projects" + File.separator + proj_name + ".codeflow");
 
                     ObjectOutputStream os = new ObjectOutputStream(fs);
 

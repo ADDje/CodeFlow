@@ -47,7 +47,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="file" android:host="*" android:pathPattern=".*\\.codeblock" android:mimeType="*/*" />
+                <data android:scheme="file" android:host="*" android:pathPattern=".*\\.codeflow" android:mimeType="*/*" />
             </intent-filter>
             <intent-filter
                 android:label="@string/app_name">
@@ -55,17 +55,17 @@
                 <data
                     android:scheme="content"
                     android:mimeType="application/vnd.codeblock"
-                    android:pathPattern=".*\\.codeblock" />
+                    android:pathPattern=".*\\.codeflow" />
                 <!-- needed for mangled email messages -->
                 <data
                     android:scheme="content"
                     android:mimeType="application/codeblock"
-                    android:pathPattern=".*\\.codeblock" />
+                    android:pathPattern=".*\\.codeflow" />
                 <!-- needed for mangled email messages -->
                 <data
                     android:scheme="content"
                     android:mimeType="application/octet-stream"
-                    android:pathPattern=".*\\.codeblock" />
+                    android:pathPattern=".*\\.codeflow" />
 
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />

@@ -207,7 +207,7 @@ public class ProjectsMenu extends AppCompatActivity {
                     for (File child : extDirList) {
                         String childPath = child.getPath();
                         String childName = child.getName();
-                        if (childPath.endsWith(".codeblock")) {
+                        if (childPath.endsWith(".codeflow")) {
                             //New file of the file we want to copy's name in internal directory
                             File intDir = new File(getFilesDir().getAbsolutePath() + File.separator + "projects" + File.separator + childName);
                             try {
